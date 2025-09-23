@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-color: rgb(62, 62, 62); 
+}
+
+.top-bar {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.top-bar .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 100px;
+    width: 250px;
+}
+
+.header .search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 10px;
+    
+}
+
+.header .search-bar input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.header .search-bar button {
+    padding: 10px;
+    background-color: #6a0dad;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.header .user-options {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-options div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-options div i {
+    margin-right: 5px;
+}
+
+.header .user-options .cart {
+    background: linear-gradient(to right, #6a0dad, #f0c27b);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to right, #48b1ee, #48b1ee);; 
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.giris a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+li a, .AnaLink { 
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+  } 
+
+    li a:hover, .AcilirMenu:hover .AnaLink { 
+      background:linear-gradient(to right,  #e6e1e9, #bf7bf0);; 
+    } 
+
+  li.AcilirMenu { 
+    display: inline-block; 
+  } 
+
+.AcilirMenu_Icerik { 
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+
+z-index: 1; 
+} 
+.AcilirMenu_Icerik a { 
+    color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+    text-align: left; 
+  } 
+
+    .AcilirMenu_Icerik a:hover { 
+      background-color: #f1f1f1; 
+    } 
+
+.AcilirMenu:hover .AcilirMenu_Icerik { 
+  display: block; 
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    position: relative;
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.radio-group {
+    margin-bottom: 15px;
+}
+.radio-group label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+.radio-group input {
+    margin-right: 5px;
+}
+.checkbox-group {
+    margin-bottom: 15px;
+}
+.checkbox-group label {
+    font-weight: normal;
+}
+.checkbox-group input {
+    margin-right: 5px;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #e6b800;
+}
