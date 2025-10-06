@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(62, 62, 62); 
+}
+
+.top-bar {
+    background-color: #00ff48;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.top-bar .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 100px;
+    width: 250px;
+}
+
+.header .search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 10px;
+    
+}
+
+.header .search-bar input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.header .search-bar button {
+    padding: 10px;
+    background-color: #6a0dad;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.header .user-options {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-options div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-options div i {
+    margin-right: 5px;
+}
+
+.header .user-options .cart {
+    background: linear-gradient(to right, #6a0dad, #f0c27b);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to right, #48b1ee, #48b1ee);; 
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.giris a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 18%;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product-card img {
+    width: 300px;
+    height: 300px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.product-card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.product-card .badge.new {
+    background-color: blue;
+}
+.product-card .badge.best-seller {
+    background-color: orange;
+}
+.product-card .badge.quality {
+    background-color: red;
+}
+.product-card .price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.product-card .old-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.product-card .description {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+li a, .AnaLink { 
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+  } 
+
+    li a:hover, .AcilirMenu:hover .AnaLink { 
+      background:linear-gradient(to right,  #e6e1e9, #bf7bf0);; 
+    } 
+
+  li.AcilirMenu { 
+    display: inline-block; 
+  } 
+
+.AcilirMenu_Icerik { 
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+
+z-index: 1; 
+} 
+.AcilirMenu_Icerik a { 
+    color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+    text-align: left; 
+  } 
+
+    .AcilirMenu_Icerik a:hover { 
+      background-color: #f1f1f1; 
+    } 
+
+.AcilirMenu:hover .AcilirMenu_Icerik { 
+  display: block; 
+} 
